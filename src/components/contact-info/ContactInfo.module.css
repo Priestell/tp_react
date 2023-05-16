@@ -1,0 +1,71 @@
+/* ContactInfo.module.css */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #ff0000;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.goBackButton {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.goBackButton:hover {
+  background-color: #999;
+}
